@@ -1,0 +1,790 @@
+IQ-TREE 2.2.2.7.modelmix COVID-edition built Jul 13 2023
+
+Input file name: /Users/lindsaybai/Desktop/BIOL8706/phylogenetic_project/drosophila_introgression_data/busco_msa_dna_anopheles/EOG0915022F.fna.aln
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 101669
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 151 sequences with 3148 nucleotide sites
+Number of constant sites: 1748 (= 55.5273% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1748 (= 55.5273% of all sites)
+Number of parsimony informative sites: 988
+Number of distinct site patterns: 1413
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2e+R5
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2e+R5         -58776.943  118173.886 +    0.482  118241.852 +    0.654  120050.788 +    0.999
+SYM+R5           -58776.079  118176.158 +    0.155  118245.051 +    0.132  120065.169 - 0.000753
+TIM2+F+R5        -58774.638  118175.277 +     0.24  118244.636 +    0.163  120070.342 - 5.67e-05
+GTR+F+R5         -58773.352  118176.703 +    0.118  118247.000 -   0.0498  120083.878 - 6.52e-08
+GTR+F+I+R5       -58775.587  118183.173 -  0.00464  118253.941 -  0.00155  120096.402 - 1.24e-10
+GTR+F+I+R4       -58788.597  118205.195 - 7.66e-08  118275.022 -  4.1e-08  120106.315 - 8.75e-13
+GTR+F+I+R6       -58775.530  118187.061 - 0.000664  118258.776 - 0.000138  120112.399 - 4.18e-14
+TNe+R5           -58813.297  118244.594 - 2.13e-16  118312.100 - 3.64e-16  120115.442 - 9.12e-15
+TIM3e+R5         -58812.398  118244.797 - 1.93e-16  118312.763 - 2.61e-16  120121.699 - 3.99e-16
+TIMe+R5          -58813.120  118246.240 - 9.36e-17  118314.207 - 1.27e-16  120123.142 - 1.94e-16
+GTR+F+R4         -58803.196  118232.393 - 9.51e-14  118301.752 - 6.43e-14  120127.458 - 2.24e-17
+TPM2+R5          -58836.985  118291.969 -  1.1e-26  118359.474 - 1.88e-26  120162.817 - 4.71e-25
+TVMe+R5          -58836.389  118294.779 -  2.7e-27  118363.208 - 2.91e-27  120177.735 - 2.71e-28
+TN+F+R5          -58833.413  118290.826 - 1.95e-26  118359.719 - 1.66e-26  120179.837 - 9.48e-29
+TIM+F+R5         -58831.050  118288.099 - 7.62e-26  118357.458 - 5.15e-26  120183.165 -  1.8e-29
+TIM3+F+R5        -58832.187  118290.374 - 2.44e-26  118359.733 - 1.65e-26  120185.440 - 5.76e-30
+K2P+R5           -58868.671  118353.343 - 5.18e-40  118420.389 - 1.11e-39  120218.136 - 4.58e-37
+TPM3+R5          -58868.220  118354.440 - 2.99e-40  118421.946 - 5.11e-40  120225.288 - 1.28e-38
+K3P+R5           -58868.491  118354.981 - 2.28e-40  118422.487 -  3.9e-40  120225.829 - 9.77e-39
+GTR+F+I+R3       -58865.784  118355.568 -  1.7e-40  118424.461 - 1.45e-40  120244.579 - 8.29e-43
+GTR+F+I+G4       -58879.109  118376.217 - 5.59e-45  118443.723 - 9.55e-45  120247.065 - 2.39e-43
+TPM2u+F+R5       -58881.510  118387.019 - 2.52e-47  118455.912 - 2.15e-47  120276.030 - 1.23e-49
+TVM+F+R5         -58878.958  118385.916 - 4.38e-47  118455.743 - 2.34e-47  120287.036 -    5e-52
+GTR+F+R6         -58879.017  118392.034 - 2.05e-48  118463.275 - 5.42e-49  120311.318 - 2.67e-57
+HKY+F+R5         -58933.972  118489.944 - 1.13e-69  118558.373 - 1.21e-69  120372.901 - 1.13e-70
+K3Pu+F+R5        -58931.662  118487.324 - 4.17e-69  118556.217 - 3.56e-69  120376.335 - 2.03e-71
+TPM3u+F+R5       -58931.943  118487.885 - 3.15e-69  118556.778 - 2.69e-69  120376.896 - 1.53e-71
+GTR+F+R3         -58936.948  118495.897 - 5.74e-71  118564.325 - 6.18e-71  120378.853 - 5.77e-72
+GTR+F+G4         -59129.973  118875.945 - 1.71e-153  118942.992 - 3.67e-153  120740.738 - 1.51e-150
+GTR+F+I+R2       -59362.232  119344.464 - 3.13e-255  119412.430 - 4.24e-255  121221.366 - 6.48e-255
+GTR+F+R2         -59705.203  120028.407 -        0  120095.912 -        0  121899.254 -        0
+JC+R5            -61131.862  122877.724 -        0  122944.312 -        0  124736.462 -        0
+F81+F+R5         -61299.345  123218.691 -        0  123286.657 -        0  125095.593 -        0
+GTR+F+I          -62225.889  125067.778 -        0  125134.825 -        0  126932.571 -        0
+GTR+F            -67784.599  136183.199 -        0  136249.787 -        0  138041.937 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2e+R5
+
+Rate parameter R:
+
+  A-C: 1.3810
+  A-G: 3.8726
+  A-T: 1.3810
+  C-G: 1.0000
+  C-T: 5.5139
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A   -0.9378    0.1952    0.5474    0.1952
+  C    0.1952    -1.116    0.1414    0.7794
+  G    0.5474    0.1414   -0.8301    0.1414
+  T    0.1952    0.7794    0.1414    -1.116
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.4894,0.02793) (0.1009,0.3689) (0.1598,1.176) (0.171,2.419) (0.07884,4.409)
+
+ Category  Relative_rate  Proportion
+  1         0.02793        0.4894
+  2         0.3689         0.1009
+  3         1.176          0.1598
+  4         2.419          0.171
+  5         4.409          0.07884
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -58761.5114 (s.e. 1595.3458)
+Unconstrained log-likelihood (without tree): -19164.8402
+Number of free parameters (#branches + #model parameters): 310
+Akaike information criterion (AIC) score: 118143.0229
+Corrected Akaike information criterion (AICc) score: 118210.9890
+Bayesian information criterion (BIC) score: 120019.9249
+
+Total tree length (sum of branch lengths): 10.0669
+Sum of internal branch lengths: 3.7036 (36.7898% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Anopheles_gambiae' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----------------------------------------------------------Anopheles_gambiae
+|
+|                                            +--D_acanthoptera
+|                                         +--| (100)
+|                                         |  +--D_wassermani
+|                                      +--| (96)
+|                                      |  +--D_nannoptera
+|                                  +---| (100)
+|                                  |   +--D_pachea
+|                               +--| (100)
+|                               |  +----D_bromeliae
+|                            +--| (100)
+|                            |  |                 +--D_arizonae
+|                            |  |              +--| (100)
+|                            |  |              |  +--D_mojavensis
+|                            |  |           +--| (100)
+|                            |  |           |  +--D_navojoa
+|                            |  |        +--| (100)
+|                            |  |        |  +--D_seriema
+|                            |  |     +--| (47)
+|                            |  |     |  +--D_repleta
+|                            |  |  +--| (97)
+|                            |  |  |  +--D_hydei
+|                            |  +--| (92)
+|                            |     +----D_pseudotalamancana
+|                         +--| (100)
+|                         |  |        +--D_americana
+|                         |  |     +--| (100)
+|                         |  |     |  +--D_novamexicana
+|                         |  |  +--| (100)
+|                         |  |  |  +--D_virilis
+|                         |  +--| (100)
+|                         |     +--D_montana
+|                      +--| (100)
+|                      |  |                 +--D_differens
+|                      |  |              +--| (98)
+|                      |  |              |  +--D_silvestris
+|                      |  |           +--| (97)
+|                      |  |           |  +--D_heteroneura
+|                      |  |        +--| (100)
+|                      |  |        |  +--D_planitibia
+|                      |  |     +--| (99)
+|                      |  |     |  |     +--D_grimshawi
+|                      |  |     |  |  +--| (100)
+|                      |  |     |  |  |  |     +--D_limitata
+|                      |  |     |  |  |  |  +--| (100)
+|                      |  |     |  |  |  |  |  +--D_ochracea
+|                      |  |     |  |  |  +--| (100)
+|                      |  |     |  |  |     |     +--D_murphyi
+|                      |  |     |  |  |     |  +--| (100)
+|                      |  |     |  |  |     |  |  +--D_sproati
+|                      |  |     |  |  |     +--| (99)
+|                      |  |     |  |  |        +--D_villosipedis
+|                      |  |     |  +--| (100)
+|                      |  |     |     |  +--D_paucipunta
+|                      |  |     |     +--| (100)
+|                      |  |     |        +--D_prolacticillia
+|                      |  |  +--| (100)
+|                      |  |  |  +--D_primaeva
+|                      |  +--| (100)
+|                      |     |     +--S_elmoi
+|                      |     |  +--| (100)
+|                      |     |  |  +--S_pallida
+|                      |     +--| (100)
+|                      |        |  +--S_flava
+|                      |        +--| (100)
+|                      |           +--S_montana
+|                   +--| (61)
+|                   |  |                    +--D_arawakana
+|                   |  |                 +--| (100)
+|                   |  |                 |  +--D_dunni
+|                   |  |              +--| (100)
+|                   |  |              |  +--D_cardini
+|                   |  |           +--| (100)
+|                   |  |           |  +----------D_ornatifrons
+|                   |  |        +--| (98)
+|                   |  |        |  +--D_pallidipennis
+|                   |  |     +--| (98)
+|                   |  |     |  |  +--D_funebris
+|                   |  |     |  +--| (87)
+|                   |  |     |     |  +--D_guttifera
+|                   |  |     |     +--| (100)
+|                   |  |     |        |  +--D_innubila
+|                   |  |     |        +--| (99)
+|                   |  |     |           +--D_mush_saotome
+|                   |  |  +--| (98)
+|                   |  |  |  +----D_pruinosa
+|                   |  +--| (94)
+|                   |     |        +--D_immigrans
+|                   |     |     +--| (100)
+|                   |     |     |  +--D_immigrans_kari17
+|                   |     |  +--| (100)
+|                   |     |  |  |           +--D_kepulauana
+|                   |     |  |  |        +--| (95)
+|                   |     |  |  |        |  +--D_nasuta
+|                   |     |  |  |     +--| (92)
+|                   |     |  |  |     |  |  +--D_pulaua
+|                   |     |  |  |     |  +--| (97)
+|                   |     |  |  |     |     +--D_sulfurigaster_bilimbata
+|                   |     |  |  |  +--| (100)
+|                   |     |  |  |  |  +--D_sulfurigaster_albostrigata
+|                   |     |  |  +--| (84)
+|                   |     |  |     +--D_neohypocausta
+|                   |     +--| (97)
+|                   |        +---------D_quadrilineata
+|                +--| (76)
+|                |  +-------D_repletoides
+|             +--| (100)
+|             |  |            +--Z_africanus
+|             |  |         +--| (100)
+|             |  |         |  |  +--Z_gabonicus
+|             |  |         |  +--| (100)
+|             |  |         |     +--Z_indianus_16GNV01
+|             |  |      +--| (99)
+|             |  |      |  |           +--Z_camerounensis
+|             |  |      |  |        +--| (98)
+|             |  |      |  |        |  +--Z_nigranus
+|             |  |      |  |     +--| (99)
+|             |  |      |  |     |  +--Z_vittiger
+|             |  |      |  |  +--| (100)
+|             |  |      |  |  |  +--Z_lachaisei
+|             |  |      |  +--| (100)
+|             |  |      |     |  +--Z_capensis
+|             |  |      |     +--| (90)
+|             |  |      |        |  +--Z_davidi
+|             |  |      |        +--| (90)
+|             |  |      |           +--Z_taronus
+|             |  |   +--| (100)
+|             |  |   |  +--Z_ornatusmayotte
+|             |  +---| (100)
+|             |      |  +--Z_ghesquierei
+|             |      +--| (98)
+|             |         |  +--Z_inermis
+|             |         +--| (100)
+|             |            |  +--Z_kolodkinae
+|             |            +--| (100)
+|             |               |  +--Z_sepsoides_mayotte
+|             |               +--| (100)
+|             |                  |  +--Z_tsacasi
+|             |                  +--| (99)
+|             |                     +--Z_tsacasi_2
+|          +--| (98)
+|          |  +-------D_busckii
+|       +--| (83)
+|       |  |                       +--D_affinis
+|       |  |                    +--| (100)
+|       |  |                    |  +--D_athabasca
+|       |  |                 +--| (100)
+|       |  |                 |  +--D_azteca
+|       |  |              +--| (100)
+|       |  |              |  |  +--D_lowei
+|       |  |              |  +--| (100)
+|       |  |              |     |     +--D_miranda
+|       |  |              |     |  +**| (92)
+|       |  |              |     |  |  +--D_pseudoobscura
+|       |  |              |     +--| (100)
+|       |  |              |        +--D_persimilis
+|       |  |           +--| (99)
+|       |  |           |  |  +--D_bifasciata
+|       |  |           |  +--| (100)
+|       |  |           |     +--D_obscura
+|       |  |        +--| (100)
+|       |  |        |  |  +--D_guanche
+|       |  |        |  +--| (100)
+|       |  |        |     +--D_subobscura
+|       |  |     +--| (90)
+|       |  |     |  |            +--D_ananassae
+|       |  |     |  |         +--| (100)
+|       |  |     |  |         |  +--D_parapallidosa
+|       |  |     |  |      +--| (100)
+|       |  |     |  |      |  |        +--D_bipectinata
+|       |  |     |  |      |  |     +--| (100)
+|       |  |     |  |      |  |     |  +--D_parabipectinata
+|       |  |     |  |      |  |  +--| (100)
+|       |  |     |  |      |  |  |  |  +--D_malerkotliana_malerkotliana
+|       |  |     |  |      |  |  |  +--| (100)
+|       |  |     |  |      |  |  |     +--D_m_pallens
+|       |  |     |  |      |  +--| (100)
+|       |  |     |  |      |     |  +--D_p_nigrens
+|       |  |     |  |      |     +--| (100)
+|       |  |     |  |      |        +--D_pseudoananassae_pseudoananassae
+|       |  |     |  |   +--| (100)
+|       |  |     |  |   |  +--D_ercepeae
+|       |  |     |  +---| (96)
+|       |  |     |      |                       +--D_asahinai
+|       |  |     |      |                    +--| (100)
+|       |  |     |      |                    |  +--D_lacteicornis
+|       |  |     |      |                 +--| (100)
+|       |  |     |      |                 |  +--D_rufa
+|       |  |     |      |              +--| (100)
+|       |  |     |      |              |  +--D_tani
+|       |  |     |      |           +--| (100)
+|       |  |     |      |           |  |  +--D_aurauria
+|       |  |     |      |           |  +--| (100)
+|       |  |     |      |           |     +--D_triauraria
+|       |  |     |      |        +--| (97)
+|       |  |     |      |        |  +--D_pectinifera
+|       |  |     |      |     +--| (94)
+|       |  |     |      |     |  |                 +--D_bakoue
+|       |  |     |      |     |  |              +--| (98)
+|       |  |     |      |     |  |              |  +--D_nikananu
+|       |  |     |      |     |  |           +--| (100)
+|       |  |     |      |     |  |           |  |     +--D_burlai
+|       |  |     |      |     |  |           |  |  +--| (91)
+|       |  |     |      |     |  |           |  |  |  +--D_sp_aff_chauvacae
+|       |  |     |      |     |  |           |  +--| (100)
+|       |  |     |      |     |  |           |     +--D_bocqueti
+|       |  |     |      |     |  |        +--| (98)
+|       |  |     |      |     |  |        |  +--D_jambulina
+|       |  |     |      |     |  |     +--| (100)
+|       |  |     |      |     |  |     |  |  +--D_seguyi
+|       |  |     |      |     |  |     |  +--| (97)
+|       |  |     |      |     |  |     |     +--D_vulcana
+|       |  |     |      |     |  |  +--| (99)
+|       |  |     |      |     |  |  |  |           +--D_birchii
+|       |  |     |      |     |  |  |  |        +--| (100)
+|       |  |     |      |     |  |  |  |        |  +--D_mayri
+|       |  |     |      |     |  |  |  |     +--| (100)
+|       |  |     |      |     |  |  |  |     |  +--D_truncata
+|       |  |     |      |     |  |  |  |  +--| (97)
+|       |  |     |      |     |  |  |  |  |  |  +--D_bunnanda
+|       |  |     |      |     |  |  |  |  |  +--| (100)
+|       |  |     |      |     |  |  |  |  |     +--D_serrata
+|       |  |     |      |     |  |  |  +--| (95)
+|       |  |     |      |     |  |  |     |  +--D_punjabiensis
+|       |  |     |      |     |  |  |     +--| (100)
+|       |  |     |      |     |  |  |        +--D_watanabei
+|       |  |     |      |     |  +--| (100)
+|       |  |     |      |     |     |  +--D_kikkawai
+|       |  |     |      |     |     +--| (100)
+|       |  |     |      |     |        +--D_leontia
+|       |  |     |      |  +--| (100)
+|       |  |     |      |  |  +--D_kanapiae
+|       |  |     |      +--| (86)
+|       |  |     |         |           +--D_biarmipes
+|       |  |     |         |        +--| (100)
+|       |  |     |         |        |  |  +--D_subpulchrella
+|       |  |     |         |        |  +--| (100)
+|       |  |     |         |        |     +--D_suzukii
+|       |  |     |         |     +--| (100)
+|       |  |     |         |     |  +--D_takahashii
+|       |  |     |         |  +--| (98)
+|       |  |     |         |  |  |           +--D_erecta
+|       |  |     |         |  |  |        +--| (100)
+|       |  |     |         |  |  |        |  +--D_orena
+|       |  |     |         |  |  |     +--| (99)
+|       |  |     |         |  |  |     |  |  +--D_teissieri_273_3
+|       |  |     |         |  |  |     |  +--| (100)
+|       |  |     |         |  |  |     |     +--D_yakuba
+|       |  |     |         |  |  |  +--| (100)
+|       |  |     |         |  |  |  |  |        +--D_mauritiana
+|       |  |     |         |  |  |  |  |     +--| (88)
+|       |  |     |         |  |  |  |  |     |  +--D_simulans
+|       |  |     |         |  |  |  |  |  +--| (100)
+|       |  |     |         |  |  |  |  |  |  +--D_sechellia
+|       |  |     |         |  |  |  |  +--| (100)
+|       |  |     |         |  |  |  |     +--D_melanogaster
+|       |  |     |         |  |  +--| (97)
+|       |  |     |         |  |     +----D_eugracilis
+|       |  |     |         +--| (100)
+|       |  |     |            |              +--D_carrolli
+|       |  |     |            |           +--| (100)
+|       |  |     |            |           |  +--D_rhopaloa
+|       |  |     |            |        +--| (100)
+|       |  |     |            |        |  +--D_fuyamai
+|       |  |     |            |     +--| (100)
+|       |  |     |            |     |  +--D_kurseongensis
+|       |  |     |            |  +--| (100)
+|       |  |     |            |  |  +--D_elegans
+|       |  |     |            +--| (96)
+|       |  |     |               +---D_ficusphila
+|       |  |  +--| (84)
+|       |  |  |  |                  +--D_equinoxialis
+|       |  |  |  |               +--| (100)
+|       |  |  |  |               |  |  +--D_paulistorum
+|       |  |  |  |               |  +--| (100)
+|       |  |  |  |               |     +--D_paulistorum_L12
+|       |  |  |  |            +--| (98)
+|       |  |  |  |            |  +--D_willistoni
+|       |  |  |  |        +---| (100)
+|       |  |  |  |        |   |  +--D_insularis
+|       |  |  |  |        |   +--| (63)
+|       |  |  |  |        |      +--D_tropicalis
+|       |  |  |  |  +-----| (100)
+|       |  |  |  |  |     |     +--D_neocordata
+|       |  |  |  |  |     |  +--| (91)
+|       |  |  |  |  |     |  |  |  +--D_prosaltans
+|       |  |  |  |  |     |  |  +--| (100)
+|       |  |  |  |  |     |  |     +--D_saltans
+|       |  |  |  |  |     +--| (100)
+|       |  |  |  |  |        +--D_sturtevanti
+|       |  |  |  +--| (92)
+|       |  |  |     |  +--L_magnipectinata
+|       |  |  |     +--| (100)
+|       |  |  |        +--L_stackelbergi
+|       |  +--| (84)
+|       |     +-----H_duncani
++-------| (84)
+|       +------S_lebanonensis
+|
++--------L_varia
+
+Tree in newick format:
+
+(Anopheles_gambiae:1.4484024839,(((((((((((((D_acanthoptera:0.0246516799,D_wassermani:0.0362301452)100:0.0011152031,D_nannoptera:0.0374160663)96:0.0048636901,D_pachea:0.0273696170)100:0.1027959333,D_bromeliae:0.1280382594)100:0.0365627755,((((((D_arizonae:0.0079007154,D_mojavensis:0.0037881713)100:0.0088921220,D_navojoa:0.0148312640)100:0.0272098923,D_seriema:0.0516684128)100:0.0245397969,D_repleta:0.0707919134)47:0.0072304789,D_hydei:0.0744675137)97:0.0233975025,D_pseudotalamancana:0.1316980377)92:0.0102663055)100:0.0192550231,(((D_americana:0.0078413339,D_novamexicana:0.0045280688)100:0.0037264995,D_virilis:0.0174600668)100:0.0207631279,D_montana:0.0274618560)100:0.0473151415)100:0.0336464950,((((((D_differens:0.0041237742,D_silvestris:0.0005773905)98:0.0005920841,D_heteroneura:0.0005839124)97:0.0005761795,D_planitibia:0.0023542114)100:0.0092145461,((D_grimshawi:0.0076061377,((D_limitata:0.0017689267,D_ochracea:0.0047138042)100:0.0018892193,((D_murphyi:0.0030140022,D_sproati:0.0064293689)100:0.0027636786,D_villosipedis:0.0054006131)99:0.0020829908)100:0.0044201564)100:0.0045480572,(D_paucipunta:0.0092533350,D_prolacticillia:0.0083850454)100:0.0097526344)100:0.0014322853)99:0.0090415652,D_primaeva:0.0199173002)100:0.0600815782,((S_elmoi:0.0137084400,S_pallida:0.0170150298)100:0.0547053496,(S_flava:0.0151701690,S_montana:0.0111173338)100:0.0597871480)100:0.0351383963)100:0.0405303124)100:0.0248117792,(((((((D_arawakana:0.0133078202,D_dunni:0.0184584555)100:0.0244816105,D_cardini:0.0452234445)100:0.0628977067,D_ornatifrons:0.2792561969)100:0.0579636613,D_pallidipennis:0.0665075926)98:0.0242082810,(D_funebris:0.0841021838,(D_guttifera:0.0572154387,(D_innubila:0.0576759350,D_mush_saotome:0.0529053031)99:0.0169996355)100:0.0354242252)87:0.0098831003)98:0.0196077234,D_pruinosa:0.1260069678)98:0.0240059795,(((D_immigrans:0.0037978822,D_immigrans_kari17:0.0037428580)100:0.0513215451,((((D_kepulauana:0.0121978197,D_nasuta:0.0103235266)95:0.0059086820,(D_pulaua:0.0071940857,D_sulfurigaster_bilimbata:0.0044827945)97:0.0050578073)92:0.0048141658,D_sulfurigaster_albostrigata:0.0087253096)100:0.0515696014,D_neohypocausta:0.0922200509)84:0.0156992507)100:0.0538442651,D_quadrilineata:0.2655329046)97:0.0377982540)94:0.0278058030)61:0.0096320997,D_repletoides:0.1938209498)76:0.0199955052,((((Z_africanus:0.0198661784,(Z_gabonicus:0.0078402607,Z_indianus_16GNV01:0.0106087709)100:0.0145363728)100:0.0077496417,((((Z_camerounensis:0.0028757360,Z_nigranus:0.0138591173)98:0.0034424196,Z_vittiger:0.0046506845)99:0.0012680354,Z_lachaisei:0.0025207289)100:0.0084130654,(Z_capensis:0.0099034707,(Z_davidi:0.0090392898,Z_taronus:0.0183689844)90:0.0016759524)90:0.0026146691)100:0.0100948694)99:0.0082107776,Z_ornatusmayotte:0.0378614074)100:0.0364090743,(Z_ghesquierei:0.0582519519,(Z_inermis:0.0344212168,(Z_kolodkinae:0.0165305172,(Z_sepsoides_mayotte:0.0066980785,(Z_tsacasi:0.0054045356,Z_tsacasi_2:0.0035950807)99:0.0047817718)100:0.0122494568)100:0.0230691253)100:0.0422857822)98:0.0109082462)100:0.1097988074)100:0.0247042737,D_busckii:0.2148553223)98:0.0241028949,((((((((D_affinis:0.0172520456,D_athabasca:0.0046847267)100:0.0060960290,D_azteca:0.0137404500)100:0.0268293089,(D_lowei:0.0139633973,((D_miranda:0.0074899793,D_pseudoobscura:0.0076052737)92:0.0000027883,D_persimilis:0.0182439789)100:0.0087297142)100:0.0100815033)100:0.0285430323,(D_bifasciata:0.0335585132,D_obscura:0.0169842169)100:0.0050313522)99:0.0163065502,(D_guanche:0.0107522933,D_subobscura:0.0164615106)100:0.0211358562)100:0.0924379059,((((D_ananassae:0.0102996170,D_parapallidosa:0.0067594532)100:0.0300499052,(((D_bipectinata:0.0118233072,D_parabipectinata:0.0145818310)100:0.0078311944,(D_malerkotliana_malerkotliana:0.0107530305,D_m_pallens:0.0090762353)100:0.0109863719)100:0.0066371713,(D_p_nigrens:0.0076531238,D_pseudoananassae_pseudoananassae:0.0041555319)100:0.0119988012)100:0.0287706763)100:0.0254717821,D_ercepeae:0.0756737382)100:0.0914166214,((((((((D_asahinai:0.0047377509,D_lacteicornis:0.0077988686)100:0.0021004988,D_rufa:0.0056222580)100:0.0025810524,D_tani:0.0362119048)100:0.0077770652,(D_aurauria:0.0011629866,D_triauraria:0.0055973395)100:0.0206752158)100:0.0068069301,D_pectinifera:0.0396561269)97:0.0096418103,((((((D_bakoue:0.0197638687,D_nikananu:0.0224241438)98:0.0036393483,((D_burlai:0.0127048248,D_sp_aff_chauvacae:0.0039301128)91:0.0037759729,D_bocqueti:0.0072014672)100:0.0172515744)100:0.0031045154,D_jambulina:0.0296782813)98:0.0021446404,(D_seguyi:0.0371139008,D_vulcana:0.0229068519)97:0.0015465978)100:0.0115400613,((((D_birchii:0.0136554653,D_mayri:0.0226989693)100:0.0089086338,D_truncata:0.0275334548)100:0.0140169967,(D_bunnanda:0.0288840975,D_serrata:0.0328570835)100:0.0131899213)97:0.0054161432,(D_punjabiensis:0.0127685718,D_watanabei:0.0207826129)100:0.0201040305)95:0.0025327746)99:0.0046141505,(D_kikkawai:0.0047338084,D_leontia:0.0025118182)100:0.0252644048)100:0.0245990459)94:0.0039982464,D_kanapiae:0.0499615049)100:0.0493247379,((((D_biarmipes:0.0357638684,(D_subpulchrella:0.0167391892,D_suzukii:0.0166576058)100:0.0126377023)100:0.0203693019,D_takahashii:0.0695058487)100:0.0141041326,((((D_erecta:0.0140154451,D_orena:0.0177812672)100:0.0104009251,(D_teissieri_273_3:0.0121524963,D_yakuba:0.0188596933)100:0.0079611325)99:0.0068552803,(((D_mauritiana:0.0068809332,D_simulans:0.0062548000)88:0.0011059855,D_sechellia:0.0052559346)100:0.0118232266,D_melanogaster:0.0187855933)100:0.0168725868)100:0.0684051263,D_eugracilis:0.1249196917)97:0.0086069055)98:0.0127416070,(((((D_carrolli:0.0109729003,D_rhopaloa:0.0072997539)100:0.0085735898,D_fuyamai:0.0189354681)100:0.0026798745,D_kurseongensis:0.0175799054)100:0.0418042747,D_elegans:0.0454706673)100:0.0221252352,D_ficusphila:0.1072303930)96:0.0071717303)100:0.0403630504)86:0.0350341427)96:0.1107810801)90:0.0661474276,(((((D_equinoxialis:0.0139578243,(D_paulistorum:0.0016240592,D_paulistorum_L12:0.0016581798)100:0.0249027158)100:0.0110079739,D_willistoni:0.0657263159)98:0.0037577191,(D_insularis:0.0372410800,D_tropicalis:0.0348057303)63:0.0028138789)100:0.1020701837,((D_neocordata:0.0581063134,(D_prosaltans:0.0010903016,D_saltans:0.0016501439)100:0.0388559020)91:0.0088555850,D_sturtevanti:0.0690639809)100:0.0796295696)100:0.1610981972,(L_magnipectinata:0.0117275359,L_stackelbergi:0.0241544399)100:0.0911913857)92:0.0392239765)84:0.0210036508,H_duncani:0.1555890535)84:0.0207035464)83:0.0871485846,S_lebanonensis:0.1697171480)84:0.1936829561,L_varia:0.2361974364);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -58761.581493
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------Anopheles_gambiae
+|
+|                                            +--D_acanthoptera
+|                                         +--| (100)
+|                                         |  +--D_wassermani
+|                                      +--| (96)
+|                                      |  +--D_nannoptera
+|                                  +---| (100)
+|                                  |   +--D_pachea
+|                               +--| (100)
+|                               |  +----D_bromeliae
+|                            +--| (100)
+|                            |  |              +--D_arizonae
+|                            |  |           +--| (100)
+|                            |  |           |  +--D_mojavensis
+|                            |  |        +--| (100)
+|                            |  |        |  +--D_navojoa
+|                            |  |     +--| (100)
+|                            |  |     |  +--D_seriema
+|                            |  |  +--| (97)
+|                            |  |  |  |  +--D_hydei
+|                            |  |  |  +--| (52)
+|                            |  |  |     +--D_repleta
+|                            |  +--| (92)
+|                            |     +----D_pseudotalamancana
+|                         +--| (100)
+|                         |  |        +--D_americana
+|                         |  |     +--| (100)
+|                         |  |     |  +--D_novamexicana
+|                         |  |  +--| (100)
+|                         |  |  |  +--D_virilis
+|                         |  +--| (100)
+|                         |     +--D_montana
+|                      +--| (100)
+|                      |  |                 +--D_differens
+|                      |  |              +--| (98)
+|                      |  |              |  +--D_silvestris
+|                      |  |           +--| (97)
+|                      |  |           |  +--D_heteroneura
+|                      |  |        +--| (100)
+|                      |  |        |  +--D_planitibia
+|                      |  |     +--| (99)
+|                      |  |     |  |     +--D_grimshawi
+|                      |  |     |  |  +--| (100)
+|                      |  |     |  |  |  |     +--D_limitata
+|                      |  |     |  |  |  |  +--| (100)
+|                      |  |     |  |  |  |  |  +--D_ochracea
+|                      |  |     |  |  |  +--| (100)
+|                      |  |     |  |  |     |     +--D_murphyi
+|                      |  |     |  |  |     |  +--| (100)
+|                      |  |     |  |  |     |  |  +--D_sproati
+|                      |  |     |  |  |     +--| (99)
+|                      |  |     |  |  |        +--D_villosipedis
+|                      |  |     |  +--| (100)
+|                      |  |     |     |  +--D_paucipunta
+|                      |  |     |     +--| (100)
+|                      |  |     |        +--D_prolacticillia
+|                      |  |  +--| (100)
+|                      |  |  |  +--D_primaeva
+|                      |  +--| (100)
+|                      |     |     +--S_elmoi
+|                      |     |  +--| (100)
+|                      |     |  |  +--S_pallida
+|                      |     +--| (100)
+|                      |        |  +--S_flava
+|                      |        +--| (100)
+|                      |           +--S_montana
+|                   +--| (61)
+|                   |  |                    +--D_arawakana
+|                   |  |                 +--| (100)
+|                   |  |                 |  +--D_dunni
+|                   |  |              +--| (100)
+|                   |  |              |  +--D_cardini
+|                   |  |           +--| (100)
+|                   |  |           |  +----------D_ornatifrons
+|                   |  |        +--| (98)
+|                   |  |        |  +--D_pallidipennis
+|                   |  |     +--| (98)
+|                   |  |     |  |  +--D_funebris
+|                   |  |     |  +--| (87)
+|                   |  |     |     |  +--D_guttifera
+|                   |  |     |     +--| (100)
+|                   |  |     |        |  +--D_innubila
+|                   |  |     |        +--| (99)
+|                   |  |     |           +--D_mush_saotome
+|                   |  |  +--| (98)
+|                   |  |  |  +----D_pruinosa
+|                   |  +--| (94)
+|                   |     |        +--D_immigrans
+|                   |     |     +--| (100)
+|                   |     |     |  +--D_immigrans_kari17
+|                   |     |  +--| (100)
+|                   |     |  |  |           +--D_kepulauana
+|                   |     |  |  |        +--| (95)
+|                   |     |  |  |        |  +--D_nasuta
+|                   |     |  |  |     +--| (92)
+|                   |     |  |  |     |  |  +--D_pulaua
+|                   |     |  |  |     |  +--| (97)
+|                   |     |  |  |     |     +--D_sulfurigaster_bilimbata
+|                   |     |  |  |  +--| (100)
+|                   |     |  |  |  |  +--D_sulfurigaster_albostrigata
+|                   |     |  |  +--| (84)
+|                   |     |  |     +--D_neohypocausta
+|                   |     +--| (97)
+|                   |        +----------D_quadrilineata
+|                +--| (76)
+|                |  +-------D_repletoides
+|             +--| (100)
+|             |  |            +--Z_africanus
+|             |  |         +--| (100)
+|             |  |         |  |  +--Z_gabonicus
+|             |  |         |  +--| (100)
+|             |  |         |     +--Z_indianus_16GNV01
+|             |  |      +--| (99)
+|             |  |      |  |           +--Z_camerounensis
+|             |  |      |  |        +--| (98)
+|             |  |      |  |        |  +--Z_nigranus
+|             |  |      |  |     +--| (99)
+|             |  |      |  |     |  +--Z_vittiger
+|             |  |      |  |  +--| (100)
+|             |  |      |  |  |  +--Z_lachaisei
+|             |  |      |  +--| (100)
+|             |  |      |     |  +--Z_capensis
+|             |  |      |     +--| (90)
+|             |  |      |        |  +--Z_davidi
+|             |  |      |        +--| (90)
+|             |  |      |           +--Z_taronus
+|             |  |   +--| (100)
+|             |  |   |  +--Z_ornatusmayotte
+|             |  +---| (100)
+|             |      |  +--Z_ghesquierei
+|             |      +--| (98)
+|             |         |  +--Z_inermis
+|             |         +--| (100)
+|             |            |  +--Z_kolodkinae
+|             |            +--| (100)
+|             |               |  +--Z_sepsoides_mayotte
+|             |               +--| (100)
+|             |                  |  +--Z_tsacasi
+|             |                  +--| (99)
+|             |                     +--Z_tsacasi_2
+|          +--| (98)
+|          |  +-------D_busckii
+|       +--| (83)
+|       |  |                       +--D_affinis
+|       |  |                    +--| (100)
+|       |  |                    |  +--D_athabasca
+|       |  |                 +--| (100)
+|       |  |                 |  +--D_azteca
+|       |  |              +--| (100)
+|       |  |              |  |  +--D_lowei
+|       |  |              |  +--| (100)
+|       |  |              |     |     +--D_miranda
+|       |  |              |     |  +--| (92)
+|       |  |              |     |  |  +--D_pseudoobscura
+|       |  |              |     +--| (100)
+|       |  |              |        +--D_persimilis
+|       |  |           +--| (99)
+|       |  |           |  |  +--D_bifasciata
+|       |  |           |  +--| (100)
+|       |  |           |     +--D_obscura
+|       |  |        +--| (100)
+|       |  |        |  |  +--D_guanche
+|       |  |        |  +--| (100)
+|       |  |        |     +--D_subobscura
+|       |  |     +--| (90)
+|       |  |     |  |            +--D_ananassae
+|       |  |     |  |         +--| (100)
+|       |  |     |  |         |  +--D_parapallidosa
+|       |  |     |  |      +--| (100)
+|       |  |     |  |      |  |        +--D_bipectinata
+|       |  |     |  |      |  |     +--| (100)
+|       |  |     |  |      |  |     |  +--D_parabipectinata
+|       |  |     |  |      |  |  +--| (100)
+|       |  |     |  |      |  |  |  |  +--D_malerkotliana_malerkotliana
+|       |  |     |  |      |  |  |  +--| (100)
+|       |  |     |  |      |  |  |     +--D_m_pallens
+|       |  |     |  |      |  +--| (100)
+|       |  |     |  |      |     |  +--D_p_nigrens
+|       |  |     |  |      |     +--| (100)
+|       |  |     |  |      |        +--D_pseudoananassae_pseudoananassae
+|       |  |     |  |   +--| (100)
+|       |  |     |  |   |  +--D_ercepeae
+|       |  |     |  +---| (96)
+|       |  |     |      |                       +--D_asahinai
+|       |  |     |      |                    +--| (100)
+|       |  |     |      |                    |  +--D_lacteicornis
+|       |  |     |      |                 +--| (100)
+|       |  |     |      |                 |  +--D_rufa
+|       |  |     |      |              +--| (100)
+|       |  |     |      |              |  +--D_tani
+|       |  |     |      |           +--| (100)
+|       |  |     |      |           |  |  +--D_aurauria
+|       |  |     |      |           |  +--| (100)
+|       |  |     |      |           |     +--D_triauraria
+|       |  |     |      |        +--| (97)
+|       |  |     |      |        |  +--D_pectinifera
+|       |  |     |      |     +--| (94)
+|       |  |     |      |     |  |                 +--D_bakoue
+|       |  |     |      |     |  |              +--| (98)
+|       |  |     |      |     |  |              |  +--D_nikananu
+|       |  |     |      |     |  |           +--| (100)
+|       |  |     |      |     |  |           |  |     +--D_burlai
+|       |  |     |      |     |  |           |  |  +--| (91)
+|       |  |     |      |     |  |           |  |  |  +--D_sp_aff_chauvacae
+|       |  |     |      |     |  |           |  +--| (100)
+|       |  |     |      |     |  |           |     +--D_bocqueti
+|       |  |     |      |     |  |        +--| (98)
+|       |  |     |      |     |  |        |  +--D_jambulina
+|       |  |     |      |     |  |     +--| (100)
+|       |  |     |      |     |  |     |  |  +--D_seguyi
+|       |  |     |      |     |  |     |  +--| (97)
+|       |  |     |      |     |  |     |     +--D_vulcana
+|       |  |     |      |     |  |  +--| (99)
+|       |  |     |      |     |  |  |  |           +--D_birchii
+|       |  |     |      |     |  |  |  |        +--| (100)
+|       |  |     |      |     |  |  |  |        |  +--D_mayri
+|       |  |     |      |     |  |  |  |     +--| (100)
+|       |  |     |      |     |  |  |  |     |  +--D_truncata
+|       |  |     |      |     |  |  |  |  +--| (97)
+|       |  |     |      |     |  |  |  |  |  |  +--D_bunnanda
+|       |  |     |      |     |  |  |  |  |  +--| (100)
+|       |  |     |      |     |  |  |  |  |     +--D_serrata
+|       |  |     |      |     |  |  |  +--| (95)
+|       |  |     |      |     |  |  |     |  +--D_punjabiensis
+|       |  |     |      |     |  |  |     +--| (100)
+|       |  |     |      |     |  |  |        +--D_watanabei
+|       |  |     |      |     |  +--| (100)
+|       |  |     |      |     |     |  +--D_kikkawai
+|       |  |     |      |     |     +--| (100)
+|       |  |     |      |     |        +--D_leontia
+|       |  |     |      |  +--| (100)
+|       |  |     |      |  |  +--D_kanapiae
+|       |  |     |      +--| (86)
+|       |  |     |         |           +--D_biarmipes
+|       |  |     |         |        +--| (100)
+|       |  |     |         |        |  |  +--D_subpulchrella
+|       |  |     |         |        |  +--| (100)
+|       |  |     |         |        |     +--D_suzukii
+|       |  |     |         |     +--| (100)
+|       |  |     |         |     |  +--D_takahashii
+|       |  |     |         |  +--| (98)
+|       |  |     |         |  |  |           +--D_erecta
+|       |  |     |         |  |  |        +--| (100)
+|       |  |     |         |  |  |        |  +--D_orena
+|       |  |     |         |  |  |     +--| (99)
+|       |  |     |         |  |  |     |  |  +--D_teissieri_273_3
+|       |  |     |         |  |  |     |  +--| (100)
+|       |  |     |         |  |  |     |     +--D_yakuba
+|       |  |     |         |  |  |  +--| (100)
+|       |  |     |         |  |  |  |  |        +--D_mauritiana
+|       |  |     |         |  |  |  |  |     +--| (88)
+|       |  |     |         |  |  |  |  |     |  +--D_simulans
+|       |  |     |         |  |  |  |  |  +--| (100)
+|       |  |     |         |  |  |  |  |  |  +--D_sechellia
+|       |  |     |         |  |  |  |  +--| (100)
+|       |  |     |         |  |  |  |     +--D_melanogaster
+|       |  |     |         |  |  +--| (97)
+|       |  |     |         |  |     +----D_eugracilis
+|       |  |     |         +--| (100)
+|       |  |     |            |              +--D_carrolli
+|       |  |     |            |           +--| (100)
+|       |  |     |            |           |  +--D_rhopaloa
+|       |  |     |            |        +--| (100)
+|       |  |     |            |        |  +--D_fuyamai
+|       |  |     |            |     +--| (100)
+|       |  |     |            |     |  +--D_kurseongensis
+|       |  |     |            |  +--| (100)
+|       |  |     |            |  |  +--D_elegans
+|       |  |     |            +--| (96)
+|       |  |     |               +---D_ficusphila
+|       |  |  +--| (84)
+|       |  |  |  |                  +--D_equinoxialis
+|       |  |  |  |               +--| (100)
+|       |  |  |  |               |  |  +--D_paulistorum
+|       |  |  |  |               |  +--| (100)
+|       |  |  |  |               |     +--D_paulistorum_L12
+|       |  |  |  |            +--| (98)
+|       |  |  |  |            |  +--D_willistoni
+|       |  |  |  |        +---| (100)
+|       |  |  |  |        |   |  +--D_insularis
+|       |  |  |  |        |   +--| (63)
+|       |  |  |  |        |      +--D_tropicalis
+|       |  |  |  |  +-----| (100)
+|       |  |  |  |  |     |     +--D_neocordata
+|       |  |  |  |  |     |  +--| (91)
+|       |  |  |  |  |     |  |  |  +--D_prosaltans
+|       |  |  |  |  |     |  |  +--| (100)
+|       |  |  |  |  |     |  |     +--D_saltans
+|       |  |  |  |  |     +--| (100)
+|       |  |  |  |  |        +--D_sturtevanti
+|       |  |  |  +--| (92)
+|       |  |  |     |  +--L_magnipectinata
+|       |  |  |     +--| (100)
+|       |  |  |        +--L_stackelbergi
+|       |  +--| (84)
+|       |     +-----H_duncani
++-------| (84)
+|       +------S_lebanonensis
+|
++--------L_varia
+
+
+Consensus tree in newick format: 
+
+(Anopheles_gambiae:1.4435474880,(((((((((((((D_acanthoptera:0.0246057523,D_wassermani:0.0361596406)100:0.0011182656,D_nannoptera:0.0373770350)96:0.0048091434,D_pachea:0.0273400812)100:0.1023585175,D_bromeliae:0.1281515533)100:0.0380882635,(((((D_arizonae:0.0078811782,D_mojavensis:0.0037931476)100:0.0089864385,D_navojoa:0.0147173375)100:0.0260061508,D_seriema:0.0527745848)100:0.0250220061,(D_hydei:0.0738378580,D_repleta:0.0683841765)52:0.0086324259)97:0.0245329650,D_pseudotalamancana:0.1333889901)92:0.0091843267)100:0.0182506624,(((D_americana:0.0078886745,D_novamexicana:0.0044572880)100:0.0037346886,D_virilis:0.0174400128)100:0.0199653893,D_montana:0.0280286074)100:0.0473619213)100:0.0334838630,((((((D_differens:0.0041162452,D_silvestris:0.0005761432)98:0.0005908218,D_heteroneura:0.0005826491)97:0.0005749706,D_planitibia:0.0023503810)100:0.0091979989,((D_grimshawi:0.0075936466,((D_limitata:0.0017651771,D_ochracea:0.0047053262)100:0.0018865095,((D_murphyi:0.0030092539,D_sproati:0.0064189523)100:0.0027591628,D_villosipedis:0.0053922862)99:0.0020788534)100:0.0044119784)100:0.0045412064,(D_paucipunta:0.0092375450,D_prolacticillia:0.0083711971)100:0.0097364444)100:0.0014311298)99:0.0090167162,D_primaeva:0.0198925486)100:0.0596339554,((S_elmoi:0.0136715866,S_pallida:0.0169966167)100:0.0545900187,(S_flava:0.0151476730,S_montana:0.0110992906)100:0.0597147242)100:0.0354742481)100:0.0404680135)100:0.0246508997,(((((((D_arawakana:0.0132780597,D_dunni:0.0184287864)100:0.0244345995,D_cardini:0.0451429268)100:0.0627779323,D_ornatifrons:0.2786374239)100:0.0579459749,D_pallidipennis:0.0662887326)98:0.0241481843,(D_funebris:0.0838572532,(D_guttifera:0.0570997574,(D_innubila:0.0576159689,D_mush_saotome:0.0527460548)99:0.0170014759)100:0.0354501579)87:0.0099001063)98:0.0195307833,D_pruinosa:0.1258121624)98:0.0242292927,(((D_immigrans:0.0037956413,D_immigrans_kari17:0.0037304738)100:0.0511595817,((((D_kepulauana:0.0121745337,D_nasuta:0.0103051977)95:0.0059036978,(D_pulaua:0.0071858954,D_sulfurigaster_bilimbata:0.0044713164)97:0.0050482976)92:0.0048066906,D_sulfurigaster_albostrigata:0.0087082242)100:0.0514233143,D_neohypocausta:0.0920750863)84:0.0157132025)100:0.0533520916,D_quadrilineata:0.2652563261)97:0.0376807661)94:0.0276613413)61:0.0097213405,D_repletoides:0.1936363303)76:0.0196706438,((((Z_africanus:0.0198270934,(Z_gabonicus:0.0078306633,Z_indianus_16GNV01:0.0105812925)100:0.0145066639)100:0.0077453843,((((Z_camerounensis:0.0028699024,Z_nigranus:0.0138308447)98:0.0034343458,Z_vittiger:0.0046402592)99:0.0012659959,Z_lachaisei:0.0025148612)100:0.0083979793,(Z_capensis:0.0098833630,(Z_davidi:0.0090201000,Z_taronus:0.0183311599)90:0.0016735505)90:0.0026072291)100:0.0100627204)99:0.0081921818,Z_ornatusmayotte:0.0377914424)100:0.0362302964,(Z_ghesquierei:0.0581284337,(Z_inermis:0.0343404103,(Z_kolodkinae:0.0164935595,(Z_sepsoides_mayotte:0.0066850953,(Z_tsacasi:0.0053940107,Z_tsacasi_2:0.0035871788)99:0.0047716418)100:0.0122297585)100:0.0230224288)100:0.0421894133)98:0.0110100876)100:0.1096768541)100:0.0246651015,D_busckii:0.2144472901)98:0.0240085205,((((((((D_affinis:0.0172122826,D_athabasca:0.0046740317)100:0.0060827682,D_azteca:0.0137089879)100:0.0267705118,(D_lowei:0.0139315364,((D_miranda:0.0074729537,D_pseudoobscura:0.0075886433)92:0.0000025534,D_persimilis:0.0182030885)100:0.0087110634)100:0.0100621815)100:0.0284747732,(D_bifasciata:0.0334757391,D_obscura:0.0169487081)100:0.0050243418)99:0.0162689234,(D_guanche:0.0107346089,D_subobscura:0.0164175451)100:0.0210954672)100:0.0922370102,((((D_ananassae:0.0102776482,D_parapallidosa:0.0067429364)100:0.0299858275,(((D_bipectinata:0.0117974687,D_parabipectinata:0.0145497523)100:0.0078103465,(D_malerkotliana_malerkotliana:0.0107286612,D_m_pallens:0.0090553102)100:0.0109622209)100:0.0066248457,(D_p_nigrens:0.0076352513,D_pseudoananassae_pseudoananassae:0.0041460099)100:0.0119712672)100:0.0287009881)100:0.0253930665,D_ercepeae:0.0755071319)100:0.0912181862,((((((((D_asahinai:0.0047254351,D_lacteicornis:0.0077788377)100:0.0020948402,D_rufa:0.0056078575)100:0.0025731654,D_tani:0.0361145570)100:0.0077566811,(D_aurauria:0.0011606993,D_triauraria:0.0055823555)100:0.0206224298)100:0.0067895626,D_pectinifera:0.0395524999)97:0.0096201325,((((((D_bakoue:0.0197100168,D_nikananu:0.0223641907)98:0.0036299667,((D_burlai:0.0126708978,D_sp_aff_chauvacae:0.0039199012)91:0.0037661343,D_bocqueti:0.0071831726)100:0.0172066594)100:0.0030972820,D_jambulina:0.0296016914)98:0.0021387946,(D_seguyi:0.0370133804,D_vulcana:0.0228453763)97:0.0015435746)100:0.0115082117,((((D_birchii:0.0136208914,D_mayri:0.0226377785)100:0.0088876743,D_truncata:0.0274625650)100:0.0139797192,(D_bunnanda:0.0288064391,D_serrata:0.0327674635)100:0.0131592411)97:0.0054043188,(D_punjabiensis:0.0127353653,D_watanabei:0.0207269109)100:0.0200535620)95:0.0025264870)99:0.0046051050,(D_kikkawai:0.0047221308,D_leontia:0.0025041166)100:0.0251952887)100:0.0245364863)94:0.0040007399,D_kanapiae:0.0498177549)100:0.0492116372,((((D_biarmipes:0.0356822779,(D_subpulchrella:0.0167017641,D_suzukii:0.0166160476)100:0.0126042798)100:0.0203118356,D_takahashii:0.0693250745)100:0.0140836214,((((D_erecta:0.0139834696,D_orena:0.0177374123)100:0.0103766345,(D_teissieri_273_3:0.0121244047,D_yakuba:0.0188132993)100:0.0079427668)99:0.0068425345,(((D_mauritiana:0.0068641440,D_simulans:0.0062394627)88:0.0011033294,D_sechellia:0.0052434487)100:0.0117924027,D_melanogaster:0.0187411764)100:0.0168331522)100:0.0682076520,D_eugracilis:0.1245760468)97:0.0086221325)98:0.0127106928,(((((D_carrolli:0.0109457483,D_rhopaloa:0.0072812458)100:0.0085518306,D_fuyamai:0.0188889218)100:0.0026734506,D_kurseongensis:0.0175383232)100:0.0416915484,D_elegans:0.0453623369)100:0.0220751373,D_ficusphila:0.1069420169)96:0.0071629465)100:0.0402523900)86:0.0349634193)96:0.1105423812)90:0.0659699001,(((((D_equinoxialis:0.0139282032,(D_paulistorum:0.0016209565,D_paulistorum_L12:0.0016545012)100:0.0248484880)100:0.0109880861,D_willistoni:0.0655855049)98:0.0037520909,(D_insularis:0.0371639584,D_tropicalis:0.0347254257)63:0.0028105247)100:0.1018148226,((D_neocordata:0.0579791236,(D_prosaltans:0.0010880321,D_saltans:0.0016463832)100:0.0387635636)91:0.0088398969,D_sturtevanti:0.0689086788)100:0.0794640686)100:0.1606711994,(L_magnipectinata:0.0117277134,L_stackelbergi:0.0240765374)100:0.0910448134)92:0.0391244073)84:0.0210869348,H_duncani:0.1549448247)84:0.0205663871)83:0.0873960270,S_lebanonensis:0.1690534612)84:0.1948472001,L_varia:0.2340507581);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t ./test/Single_666.treefile -m "TIM2e{1.38096,3.87258,5.51391}+FQ+R5{0.489429,0.0279337,0.100934,0.368925,0.159796,1.17592,0.171004,2.41859,0.0788366,4.40906}" --length 3148
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/lindsaybai/Desktop/BIOL8706/phylogenetic_project/drosophila_introgression_data/busco_msa_dna_anopheles/EOG0915022F.fna.aln --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/lindsaybai/Desktop/BIOL8706/phylogenetic_project/drosophila_introgression_data/busco_msa_dna_anopheles/EOG0915022F.fna.aln --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Aug 29 18:12:12 2023
+Total CPU time used: 369.569541 seconds (0h:6m:9s)
+Total wall-clock time used: 372.3870709 seconds (0h:6m:12s)
+

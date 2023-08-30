@@ -1,0 +1,491 @@
+IQ-TREE multicore version 2.2.2.7.modelmix COVID-edition for Mac OS X 64-bit built Jul 13 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    baiyilindeMacBook-Air.local (SSE4.2, 8 GB RAM)
+Command: /Users/lindsaybai/Desktop/BIOL8706/iqtree-2.2.2.7.modelmix-MacOSX/bin/iqtree2 -s /Users/lindsaybai/Desktop/BIOL8706/phylogenetic_project/drosophila_introgression_data/busco_msa_dna_anopheles/EOG0915022F.fna.aln -B 1000 --prefix ./test/Single_666
+Seed:    101669 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 29 18:06:00 2023
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/lindsaybai/Desktop/BIOL8706/phylogenetic_project/drosophila_introgression_data/busco_msa_dna_anopheles/EOG0915022F.fna.aln ... Fasta format detected
+Reading fasta file: done in 0.0105569 secs using 72.09% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00493193 secs using 72.45% CPU
+Alignment has 151 sequences with 3148 columns, 1413 distinct patterns
+988 parsimony-informative, 412 singleton sites, 1748 constant sites
+                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000411987 secs using 87.38% CPU
+   1  Anopheles_gambiae                   39.87%    failed      0.00%
+   2  D_acanthoptera                      38.44%    failed      0.10%
+   3  D_affinis                           37.96%    passed     43.03%
+   4  D_americana                         38.72%    passed     89.59%
+   5  D_ananassae                         39.20%    failed      0.70%
+   6  D_arawakana                         36.91%    passed     83.08%
+   7  D_arizonae                          38.63%    passed     93.24%
+   8  D_asahinai                          37.58%    failed      0.00%
+   9  D_athabasca                         37.96%    passed     29.07%
+  10  D_aurauria                          37.58%    failed      0.00%
+  11  D_azteca                            37.96%    passed     43.06%
+  12  D_bakoue                            35.58%    failed      0.83%
+  13  D_biarmipes                         35.77%    failed      0.13%
+  14  D_bifasciata                        38.06%    passed     62.18%
+  15  D_bipectinata                       37.29%    failed      1.50%
+  16  D_birchii                           37.58%    failed      0.65%
+  17  D_bromeliae                         38.91%    passed     10.26%
+  18  D_bunnanda                          37.58%    passed      7.87%
+  19  D_burlai                            37.58%    failed      3.76%
+  20  D_busckii                           39.10%    failed      0.73%
+  21  D_cardini                           36.91%    passed     30.03%
+  22  D_carrolli                          35.77%    passed     11.06%
+  23  D_differens                         39.10%    passed     75.10%
+  24  D_dunni                             37.87%    passed     58.36%
+  25  D_elegans                           34.91%    failed      3.73%
+  26  D_equinoxialis                      37.48%    failed      0.01%
+  27  D_ercepeae                          35.48%    failed      4.40%
+  28  D_erecta                            37.67%    passed     61.56%
+  29  D_eugracilis                        42.63%    passed     87.84%
+  30  D_ficusphila                        35.67%    passed     39.97%
+  31  D_funebris                          38.44%    failed      1.55%
+  32  D_fuyamai                           35.77%    passed      8.62%
+  33  D_grimshawi                         40.91%    passed     62.57%
+  34  D_guanche                           38.06%    passed      8.92%
+  35  D_guttifera                         36.44%    passed     48.73%
+  36  D_heteroneura                       39.10%    passed     81.02%
+  37  D_hydei                             36.82%    failed      1.35%
+  38  D_immigrans                         38.72%    passed     58.23%
+  39  D_immigrans_kari17                  38.72%    passed     56.02%
+  40  D_innubila                          38.72%    failed      2.14%
+  41  D_insularis                         37.48%    failed      0.01%
+  42  D_jambulina                         39.29%    failed      3.45%
+  43  D_kanapiae                          37.58%    failed      0.05%
+  44  D_kepulauana                        38.91%    passed     92.07%
+  45  D_kikkawai                          35.58%    failed      0.41%
+  46  D_kurseongensis                     39.49%    failed      4.32%
+  47  D_lacteicornis                      37.58%    failed      0.00%
+  48  D_leontia                           35.58%    failed      0.35%
+  49  D_limitata                          39.10%    passed     71.90%
+  50  D_lowei                             38.06%    passed     52.84%
+  51  D_malerkotliana_malerkotliana       37.29%    failed      4.27%
+  52  D_mauritiana                        41.20%    passed     71.60%
+  53  D_mayri                             37.58%    passed      8.35%
+  54  D_melanogaster                      35.77%    passed     63.41%
+  55  D_miranda                           38.06%    passed     33.34%
+  56  D_mojavensis                        38.53%    passed     93.25%
+  57  D_montana                           38.72%    passed     99.81%
+  58  D_bocqueti                          37.39%    failed      0.51%
+  59  D_sp_aff_chauvacae                  37.58%    failed      1.76%
+  60  D_m_pallens                         37.29%    failed      2.71%
+  61  D_murphyi                           38.25%    passed     65.64%
+  62  D_mush_saotome                      38.72%    failed      0.01%
+  63  D_nannoptera                        38.53%    failed      0.23%
+  64  D_nasuta                            33.48%    passed     19.61%
+  65  D_navojoa                           38.53%    passed     93.45%
+  66  D_neocordata                        37.48%    failed      0.00%
+  67  D_neohypocausta                     39.29%    passed     55.82%
+  68  D_nikananu                          35.58%    passed      5.43%
+  69  D_novamexicana                      38.72%    passed     94.53%
+  70  D_obscura                           38.06%    passed     34.40%
+  71  D_ochracea                          39.10%    passed     62.75%
+  72  D_orena                             35.67%    passed     53.29%
+  73  D_ornatifrons                       37.77%    failed      0.37%
+  74  D_pachea                            38.53%    failed      0.11%
+  75  D_pallidipennis                     37.77%    failed      0.97%
+  76  D_parabipectinata                   37.29%    failed      3.50%
+  77  D_parapallidosa                     37.29%    failed      0.20%
+  78  D_paucipunta                        39.17%    passed     56.23%
+  79  D_paulistorum                       37.58%    failed      0.03%
+  80  D_paulistorum_L12                   37.58%    failed      0.03%
+  81  D_pectinifera                       37.58%    failed      0.27%
+  82  D_persimilis                        34.91%    failed      0.51%
+  83  D_planitibia                        39.10%    passed     81.02%
+  84  D_p_nigrens                         37.29%    failed      1.01%
+  85  D_primaeva                          39.17%    passed     83.35%
+  86  D_prolacticillia                    39.10%    passed     57.41%
+  87  D_prosaltans                        37.48%    failed      0.02%
+  88  D_pruinosa                          39.01%    passed     20.50%
+  89  D_pseudoananassae_pseudoananassae   37.29%    failed      0.19%
+  90  D_pseudoobscura                     39.49%    passed     47.16%
+  91  D_pseudotalamancana                 37.48%    failed      0.40%
+  92  D_pulaua                            33.58%    passed     36.63%
+  93  D_punjabiensis                      37.77%    failed      0.35%
+  94  D_quadrilineata                     38.82%    passed     47.75%
+  95  D_repleta                           38.72%    passed     74.90%
+  96  D_repletoides                       37.29%    failed      0.00%
+  97  D_rhopaloa                          35.96%    passed      8.91%
+  98  D_rufa                              37.58%    failed      0.00%
+  99  D_saltans                           37.48%    failed      0.02%
+ 100  D_sechellia                         36.72%    passed     67.83%
+ 101  D_seguyi                            35.58%    failed      3.15%
+ 102  D_seriema                           38.63%    passed     95.22%
+ 103  D_serrata                           36.34%    passed     14.11%
+ 104  D_silvestris                        39.10%    passed     80.09%
+ 105  D_simulans                          35.77%    passed     58.80%
+ 106  D_sproati                           39.10%    passed     48.22%
+ 107  D_sturtevanti                       37.48%    failed      0.01%
+ 108  D_subobscura                        38.06%    failed      0.90%
+ 109  D_subpulchrella                     35.77%    failed      1.57%
+ 110  D_sulfurigaster_albostrigata        38.91%    passed     88.08%
+ 111  D_sulfurigaster_bilimbata           34.91%    passed     57.65%
+ 112  D_suzukii                           35.77%    failed      1.70%
+ 113  D_takahashii                        37.20%    failed      0.00%
+ 114  D_tani                              41.39%    failed      0.01%
+ 115  D_teissieri_273_3                   35.67%    passed     60.24%
+ 116  D_triauraria                        37.58%    failed      0.00%
+ 117  D_tropicalis                        37.48%    failed      0.00%
+ 118  D_truncata                          37.58%    passed      6.22%
+ 119  D_villosipedis                      39.14%    passed     60.77%
+ 120  D_virilis                           37.48%    passed     98.72%
+ 121  D_vulcana                           37.58%    failed      4.02%
+ 122  D_wassermani                        38.53%    failed      0.07%
+ 123  D_watanabei                         37.77%    failed      0.00%
+ 124  D_willistoni                        19.28%    failed      0.00%
+ 125  D_yakuba                            38.06%    passed     50.44%
+ 126  H_duncani                           36.82%    passed     91.73%
+ 127  L_magnipectinata                    37.87%    passed     60.99%
+ 128  L_stackelbergi                      38.82%    passed     69.01%
+ 129  L_varia                             37.48%    failed      0.00%
+ 130  S_elmoi                             47.52%    failed      4.41%
+ 131  S_flava                             39.10%    failed      0.55%
+ 132  S_lebanonensis                      39.10%    failed      0.08%
+ 133  S_montana                           39.10%    failed      0.71%
+ 134  S_pallida                           39.10%    failed      2.93%
+ 135  Z_africanus                         39.01%    passed     60.34%
+ 136  Z_camerounensis                     39.01%    passed     49.62%
+ 137  Z_capensis                          39.01%    passed     36.58%
+ 138  Z_davidi                            39.01%    passed     32.13%
+ 139  Z_gabonicus                         41.77%    passed     44.82%
+ 140  Z_ghesquierei                       39.01%    failed      2.61%
+ 141  Z_indianus_16GNV01                  39.01%    passed     23.64%
+ 142  Z_inermis                           39.01%    failed      0.33%
+ 143  Z_kolodkinae                        39.01%    failed      0.08%
+ 144  Z_lachaisei                         39.01%    passed     52.03%
+ 145  Z_nigranus                          37.87%    passed     23.87%
+ 146  Z_ornatusmayotte                    39.01%    passed     23.97%
+ 147  Z_sepsoides_mayotte                 39.01%    failed      0.20%
+ 148  Z_taronus                           38.72%    passed     21.78%
+ 149  Z_tsacasi                           39.01%    failed      0.26%
+ 150  Z_tsacasi_2                         39.01%    failed      0.35%
+ 151  Z_vittiger                          39.01%    passed     32.32%
+****  TOTAL                               37.86%  73 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.000769138 secs using 78.53% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.026 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.385507 secs using 99.38% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -58880.446
+Optimal log-likelihood: -58879.422
+Rate parameters:  A-C: 1.40014  A-G: 3.63520  A-T: 1.51807  C-G: 0.92516  C-T: 6.15195  G-T: 1.00000
+Base frequencies:  A: 0.246  C: 0.255  G: 0.275  T: 0.225
+Proportion of invariable sites: 0.334
+Gamma shape alpha: 0.807
+Parameters optimization took 1 rounds (0.269 sec)
+Time for fast ML tree search: 2.497 seconds
+
+NOTE: ModelFinder requires 74 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 3148) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         67784.599    307 136183.199   136249.787   138041.937
+  2  GTR+F+I       62225.889    308 125067.778   125134.825   126932.571
+  3  GTR+F+G4      59129.973    308 118875.945   118942.992   120740.738
+  4  GTR+F+I+G4    58879.109    309 118376.217   118443.723   120247.065
+  5  GTR+F+R2      59705.203    309 120028.407   120095.912   121899.254
+  6  GTR+F+R3      58936.948    311 118495.897   118564.325   120378.853
+  7  GTR+F+R4      58803.196    313 118232.393   118301.752   120127.458
+  8  GTR+F+R5      58773.352    315 118176.703   118247.000   120083.878
+WARNING: Log-likelihood -58879 of GTR+F+R6 worse than GTR+F+R5 -58773.4
+  9  GTR+F+R6      58879.017    317 118392.034   118463.275   120311.318
+ 14  GTR+F+I+R2    59362.232    310 119344.464   119412.430   121221.366
+ 15  GTR+F+I+R3    58865.784    312 118355.568   118424.461   120244.579
+ 16  GTR+F+I+R4    58788.597    314 118205.195   118275.022   120106.315
+ 17  GTR+F+I+R5    58775.587    316 118183.173   118253.941   120096.402
+ 18  GTR+F+I+R6    58775.530    318 118187.061   118258.776   120112.399
+ 30  SYM+R5        58776.079    312 118176.158   118245.051   120065.169
+ 52  TVM+F+R5      58878.958    314 118385.916   118455.743   120287.036
+ 74  TVMe+R5       58836.389    311 118294.779   118363.208   120177.735
+ 96  TIM3+F+R5     58832.187    313 118290.374   118359.733   120185.440
+118  TIM3e+R5      58812.398    310 118244.797   118312.763   120121.699
+140  TIM2+F+R5     58774.638    313 118175.277   118244.636   120070.342
+162  TIM2e+R5      58776.943    310 118173.885   118241.852   120050.788
+184  TIM+F+R5      58831.050    313 118288.099   118357.458   120183.165
+206  TIMe+R5       58813.120    310 118246.240   118314.207   120123.142
+228  TPM3u+F+R5    58931.943    312 118487.885   118556.778   120376.896
+250  TPM3+R5       58868.220    309 118354.440   118421.946   120225.288
+272  TPM2u+F+R5    58881.510    312 118387.019   118455.912   120276.030
+294  TPM2+R5       58836.985    309 118291.969   118359.474   120162.817
+316  K3Pu+F+R5     58931.662    312 118487.324   118556.217   120376.335
+338  K3P+R5        58868.491    309 118354.981   118422.487   120225.829
+360  TN+F+R5       58833.413    312 118290.826   118359.719   120179.837
+382  TNe+R5        58813.297    309 118244.594   118312.100   120115.442
+404  HKY+F+R5      58933.972    311 118489.944   118558.373   120372.901
+426  K2P+R5        58868.671    308 118353.343   118420.389   120218.136
+448  F81+F+R5      61299.345    310 123218.691   123286.657   125095.593
+470  JC+R5         61131.862    307 122877.724   122944.312   124736.462
+Akaike Information Criterion:           TIM2e+R5
+Corrected Akaike Information Criterion: TIM2e+R5
+Bayesian Information Criterion:         TIM2e+R5
+Best-fit model: TIM2e+R5 chosen according to BIC
+
+All model information printed to ./test/Single_666.model.gz
+CPU time for ModelFinder: 235.570 seconds (0h:3m:55s)
+Wall-clock time for ModelFinder: 237.127 seconds (0h:3m:57s)
+Generating 1000 samples for ultrafast bootstrap (seed: 101669)...
+
+NOTE: 40 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -58776.943
+Optimal log-likelihood: -58776.856
+Rate parameters:  A-C: 1.38930  A-G: 3.86873  A-T: 1.38930  C-G: 1.00000  C-T: 5.51338  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.489,0.029) (0.100,0.366) (0.164,1.168) (0.168,2.419) (0.080,4.394)
+Parameters optimization took 1 rounds (0.442 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0898042 secs using 99.17% CPU
+Computing ML distances took 0.090826 sec (of wall-clock time) 0.089587 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000372887 secs using 186.4% CPU
+Constructing RapidNJ tree: done in 0.00177193 secs using 178.6% CPU
+Computing RapidNJ tree took 0.002180 sec (of wall-clock time) 0.003878 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -59054.789
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.875 second
+Computing log-likelihood of 98 initial trees ... 4.584 seconds
+Current best score: -58776.856
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.410309 secs using 99% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -58774.050
+Optimizing NNI: done in 0.855486 secs using 99.7% CPU
+Optimizing NNI: done in 0.731042 secs using 99.67% CPU
+Optimizing NNI: done in 0.727906 secs using 99.61% CPU
+Optimizing NNI: done in 0.782883 secs using 99.62% CPU
+Optimizing NNI: done in 0.788104 secs using 99.26% CPU
+Optimizing NNI: done in 0.7993 secs using 97.39% CPU
+Optimizing NNI: done in 0.807433 secs using 99.32% CPU
+Optimizing NNI: done in 0.897993 secs using 99.58% CPU
+Optimizing NNI: done in 0.706614 secs using 99.75% CPU
+Iteration 10 / LogL: -58775.140 / Time: 0h:4m:12s
+Optimizing NNI: done in 0.714363 secs using 99.67% CPU
+Optimizing NNI: done in 0.796439 secs using 99.66% CPU
+Optimizing NNI: done in 0.71016 secs using 99.68% CPU
+Optimizing NNI: done in 0.771018 secs using 99.7% CPU
+Optimizing NNI: done in 0.711571 secs using 99.76% CPU
+Optimizing NNI: done in 0.795449 secs using 99.48% CPU
+Optimizing NNI: done in 0.71442 secs using 99.65% CPU
+Optimizing NNI: done in 0.715637 secs using 99.71% CPU
+Optimizing NNI: done in 0.736388 secs using 99.38% CPU
+Optimizing NNI: done in 0.757019 secs using 99.41% CPU
+Iteration 20 / LogL: -58775.577 / Time: 0h:4m:20s
+Finish initializing candidate tree set (4)
+Current best tree score: -58774.050 / CPU time: 22.089
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.903648 secs using 99.83% CPU
+Optimizing NNI: done in 0.761373 secs using 99.63% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -58772.594
+Optimizing NNI: done in 0.77301 secs using 99.53% CPU
+Optimizing NNI: done in 0.804892 secs using 99.65% CPU
+Optimizing NNI: done in 0.782374 secs using 99.76% CPU
+Optimizing NNI: done in 0.773397 secs using 99.67% CPU
+Optimizing NNI: done in 0.943554 secs using 99.45% CPU
+Optimizing NNI: done in 0.821778 secs using 99.4% CPU
+Optimizing NNI: done in 0.912662 secs using 99.73% CPU
+Optimizing NNI: done in 0.828568 secs using 99.68% CPU
+Iteration 30 / LogL: -58772.763 / Time: 0h:4m:29s (0h:1m:44s left)
+Optimizing NNI: done in 0.851286 secs using 99.56% CPU
+Optimizing NNI: done in 0.808258 secs using 99.65% CPU
+Optimizing NNI: done in 0.786299 secs using 99.68% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -58769.516
+Optimizing NNI: done in 0.947198 secs using 99.68% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -58769.341
+Optimizing NNI: done in 0.956269 secs using 99.63% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -58761.816
+Optimizing NNI: done in 0.73202 secs using 99.73% CPU
+Optimizing NNI: done in 0.86316 secs using 99.67% CPU
+Optimizing NNI: done in 0.942695 secs using 99.48% CPU
+Optimizing NNI: done in 0.851062 secs using 99.53% CPU
+Optimizing NNI: done in 0.822601 secs using 99.56% CPU
+Iteration 40 / LogL: -58770.400 / Time: 0h:4m:41s (0h:1m:47s left)
+Optimizing NNI: done in 0.787169 secs using 99.61% CPU
+Optimizing NNI: done in 0.758737 secs using 99.73% CPU
+Optimizing NNI: done in 0.801788 secs using 99.66% CPU
+Optimizing NNI: done in 0.775449 secs using 99.47% CPU
+Optimizing NNI: done in 0.873211 secs using 99.53% CPU
+Optimizing NNI: done in 0.791275 secs using 99.44% CPU
+Optimizing NNI: done in 1.01633 secs using 99.51% CPU
+Optimizing NNI: done in 0.846295 secs using 99.5% CPU
+Optimizing NNI: done in 0.783838 secs using 99.42% CPU
+Optimizing NNI: done in 0.797715 secs using 99.66% CPU
+Iteration 50 / LogL: -58762.387 / Time: 0h:4m:49s (0h:1m:31s left)
+Log-likelihood cutoff on original alignment: -58820.748
+Optimizing NNI: done in 0.870751 secs using 99.75% CPU
+Optimizing NNI: done in 0.781165 secs using 99.67% CPU
+Optimizing NNI: done in 0.8498 secs using 99.58% CPU
+Optimizing NNI: done in 0.737571 secs using 99.42% CPU
+Optimizing NNI: done in 0.848302 secs using 99.39% CPU
+Optimizing NNI: done in 0.794528 secs using 99.66% CPU
+Optimizing NNI: done in 1.0271 secs using 99.65% CPU
+Optimizing NNI: done in 0.95912 secs using 99.65% CPU
+Optimizing NNI: done in 0.892154 secs using 99.6% CPU
+Optimizing NNI: done in 1.02934 secs using 99.59% CPU
+UPDATE BEST LOG-LIKELIHOOD: -58761.807
+Iteration 60 / LogL: -58761.807 / Time: 0h:4m:58s (0h:1m:18s left)
+Optimizing NNI: done in 0.915944 secs using 99.55% CPU
+Optimizing NNI: done in 0.863126 secs using 99.56% CPU
+Optimizing NNI: done in 0.728054 secs using 99.37% CPU
+Optimizing NNI: done in 0.692547 secs using 99.43% CPU
+Optimizing NNI: done in 0.879804 secs using 99.57% CPU
+Optimizing NNI: done in 0.890606 secs using 99.62% CPU
+Optimizing NNI: done in 0.952597 secs using 99.58% CPU
+Optimizing NNI: done in 0.847435 secs using 99.47% CPU
+Optimizing NNI: done in 0.84731 secs using 99.7% CPU
+Optimizing NNI: done in 0.795481 secs using 99.53% CPU
+Iteration 70 / LogL: -58762.435 / Time: 0h:5m:7s (0h:1m:6s left)
+Optimizing NNI: done in 0.819159 secs using 99.6% CPU
+Optimizing NNI: done in 0.793572 secs using 99.66% CPU
+Optimizing NNI: done in 0.889829 secs using 99.56% CPU
+Optimizing NNI: done in 0.828174 secs using 99.65% CPU
+Optimizing NNI: done in 0.8184 secs using 99.65% CPU
+Optimizing NNI: done in 0.944434 secs using 99.5% CPU
+Optimizing NNI: done in 0.839822 secs using 99.59% CPU
+Optimizing NNI: done in 0.71494 secs using 99.5% CPU
+Optimizing NNI: done in 0.760832 secs using 99.73% CPU
+Optimizing NNI: done in 0.749599 secs using 99.66% CPU
+Iteration 80 / LogL: -58761.939 / Time: 0h:5m:15s (0h:0m:54s left)
+Optimizing NNI: done in 0.8054 secs using 99.54% CPU
+Optimizing NNI: done in 0.768966 secs using 99.58% CPU
+Optimizing NNI: done in 0.880701 secs using 99.63% CPU
+Optimizing NNI: done in 0.951008 secs using 99.61% CPU
+Optimizing NNI: done in 0.886891 secs using 99.18% CPU
+Optimizing NNI: done in 0.835074 secs using 99.72% CPU
+Optimizing NNI: done in 0.962524 secs using 99.45% CPU
+Optimizing NNI: done in 0.788915 secs using 99.39% CPU
+Optimizing NNI: done in 0.893003 secs using 99.62% CPU
+Optimizing NNI: done in 0.914649 secs using 99.58% CPU
+Iteration 90 / LogL: -58769.529 / Time: 0h:5m:24s (0h:0m:44s left)
+Optimizing NNI: done in 0.918992 secs using 99.44% CPU
+Optimizing NNI: done in 0.844746 secs using 99.65% CPU
+Optimizing NNI: done in 0.879189 secs using 99.62% CPU
+Optimizing NNI: done in 0.854818 secs using 99.65% CPU
+Optimizing NNI: done in 0.792093 secs using 99.57% CPU
+Optimizing NNI: done in 0.959505 secs using 99.54% CPU
+Optimizing NNI: done in 0.800186 secs using 99.43% CPU
+Optimizing NNI: done in 0.793939 secs using 99.58% CPU
+Optimizing NNI: done in 0.929222 secs using 99.63% CPU
+Optimizing NNI: done in 0.78133 secs using 99.59% CPU
+Iteration 100 / LogL: -58761.961 / Time: 0h:5m:33s (0h:0m:33s left)
+Log-likelihood cutoff on original alignment: -58812.525
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Optimizing NNI: done in 1.03553 secs using 99.61% CPU
+Optimizing NNI: done in 0.964392 secs using 99.32% CPU
+Optimizing NNI: done in 1.01136 secs using 99.51% CPU
+Optimizing NNI: done in 0.729588 secs using 99.54% CPU
+Optimizing NNI: done in 0.882734 secs using 99.61% CPU
+Optimizing NNI: done in 0.796661 secs using 99.64% CPU
+Optimizing NNI: done in 0.797637 secs using 99.55% CPU
+Optimizing NNI: done in 0.903843 secs using 96.07% CPU
+Optimizing NNI: done in 0.966241 secs using 99.29% CPU
+Optimizing NNI: done in 0.729288 secs using 99.42% CPU
+Iteration 110 / LogL: -58764.102 / Time: 0h:5m:42s (0h:1m:27s left)
+Optimizing NNI: done in 0.876527 secs using 98.17% CPU
+Optimizing NNI: done in 0.874985 secs using 99.31% CPU
+Optimizing NNI: done in 0.770647 secs using 99.63% CPU
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -58761.722
+Optimizing NNI: done in 0.796149 secs using 99.58% CPU
+Optimizing NNI: done in 0.783871 secs using 99.47% CPU
+Optimizing NNI: done in 0.923384 secs using 95.51% CPU
+Optimizing NNI: done in 0.809414 secs using 98.83% CPU
+Optimizing NNI: done in 0.95216 secs using 98.59% CPU
+Optimizing NNI: done in 0.7954 secs using 99.56% CPU
+Optimizing NNI: done in 0.701431 secs using 99.53% CPU
+Iteration 120 / LogL: -58764.941 / Time: 0h:5m:51s (0h:1m:16s left)
+Optimizing NNI: done in 0.975589 secs using 93.75% CPU
+Optimizing NNI: done in 0.859437 secs using 99.29% CPU
+Optimizing NNI: done in 0.822975 secs using 96.08% CPU
+Optimizing NNI: done in 1.02294 secs using 99.48% CPU
+Optimizing NNI: done in 0.962582 secs using 94.45% CPU
+Optimizing NNI: done in 0.884386 secs using 98.57% CPU
+Optimizing NNI: done in 0.89206 secs using 99.52% CPU
+Optimizing NNI: done in 0.770835 secs using 99.57% CPU
+Optimizing NNI: done in 0.803701 secs using 98.1% CPU
+Optimizing NNI: done in 0.9947 secs using 96.75% CPU
+Iteration 130 / LogL: -58765.454 / Time: 0h:6m:0s (0h:1m:7s left)
+Optimizing NNI: done in 0.844133 secs using 99.23% CPU
+Optimizing NNI: done in 0.791626 secs using 99.29% CPU
+Optimizing NNI: done in 0.842279 secs using 99.63% CPU
+Optimizing NNI: done in 0.798715 secs using 99.5% CPU
+Optimizing NNI: done in 0.890083 secs using 99.65% CPU
+Optimizing NNI: done in 0.81556 secs using 99.69% CPU
+TREE SEARCH COMPLETED AFTER 136 ITERATIONS / Time: 0h:6m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -58761.722
+2. Current log-likelihood: -58761.700
+3. Current log-likelihood: -58761.680
+4. Current log-likelihood: -58761.661
+5. Current log-likelihood: -58761.648
+6. Current log-likelihood: -58761.634
+7. Current log-likelihood: -58761.619
+8. Current log-likelihood: -58761.606
+9. Current log-likelihood: -58761.594
+10. Current log-likelihood: -58761.580
+11. Current log-likelihood: -58761.568
+12. Current log-likelihood: -58761.557
+13. Current log-likelihood: -58761.546
+14. Current log-likelihood: -58761.536
+15. Current log-likelihood: -58761.526
+Optimal log-likelihood: -58761.511
+Rate parameters:  A-C: 1.38096  A-G: 3.87258  A-T: 1.38096  C-G: 1.00000  C-T: 5.51391  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.489,0.028) (0.101,0.369) (0.160,1.176) (0.171,2.419) (0.079,4.409)
+Parameters optimization took 15 rounds (5.879 sec)
+BEST SCORE FOUND : -58761.511
+Creating bootstrap support values...
+Split supports printed to NEXUS file ./test/Single_666.splits.nex
+Total tree length: 10.067
+
+Total number of iterations: 136
+CPU time used for tree search: 126.483 sec (0h:2m:6s)
+Wall-clock time used for tree search: 127.428 sec (0h:2m:7s)
+Total CPU time used: 369.570 sec (0h:6m:9s)
+Total wall-clock time used: 371.947 sec (0h:6m:11s)
+
+Computing bootstrap consensus tree...
+Reading input file ./test/Single_666.splits.nex...
+151 taxa and 464 splits.
+Consensus tree written to ./test/Single_666.contree
+Reading input trees file ./test/Single_666.contree
+Log-likelihood of consensus tree: -58761.581
+
+Analysis results written to: 
+  IQ-TREE report:                ./test/Single_666.iqtree
+  Maximum-likelihood tree:       ./test/Single_666.treefile
+  Likelihood distances:          ./test/Single_666.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ./test/Single_666.splits.nex
+  Consensus tree:                ./test/Single_666.contree
+  Screen log file:               ./test/Single_666.log
+
+Date and Time: Tue Aug 29 18:12:12 2023
